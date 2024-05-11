@@ -1,0 +1,20 @@
+Bulk Extractor
+---------------------
+dd if=/dev/sda2 of=/home/vignan/Downloads/disk.img bs=512 status=progress
+bulk_extractor -o /home/vignan/Documents /home/vignan/Downloads/disk.img
+---------------------
+
+Foremost
+------------------
+foremost -T jpg,pdf,mp4 -v -q -i /dev/sda2 -o /home/vignan/Documents
+------------------
+
+EXIFTool
+------------------
+exiftool file_name
+------------------
+
+dd
+--------------
+dd if=/dev/sda2 of=/home/vignan/Downloads/disk.img bs=512 status=progress
+--------------
